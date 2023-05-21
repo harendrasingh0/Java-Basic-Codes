@@ -1,6 +1,6 @@
   // Tax paid by a person
   import java.util.*;
-public class H3{
+public class Tax_paid {
     public static void main(String args[]){
         System.out.println("Hello dear employee");
         Scanner in=new Scanner(System.in);

@@ -1,4 +1,4 @@
-// Table by methods......
+// Contructor......
 import java.util.Scanner;
 class Circle{
     float radius;
@@ -12,7 +12,7 @@ class Circle{
         System.out.println("The Circumference is:- "+(2*3.14*radius));
     }
 }
-public class H19{
+public class ConstructorEx2{
     public static void main(String args[]){
         Scanner in=new Scanner(System.in);
         Circle ob=new Circle();

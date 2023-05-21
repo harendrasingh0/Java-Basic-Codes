@@ -1,7 +1,6 @@
 //   addition of 2X3 matrix array ......
-import java.sql.SQLOutput;
 import java.util.Scanner;
-public class H12{
+public class MatrixAddition {
     public static void main(String args[]){
         Scanner in=new Scanner(System.in);
         System.out.println("Enter the value of r for raw");

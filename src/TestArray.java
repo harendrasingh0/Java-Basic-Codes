@@ -1,6 +1,6 @@
 //   Check integer is present in the array or not......
 import java.util.Scanner;
-public class H11{
+public class TestArray {
     public static void main(String args[]){
         Scanner in=new Scanner(System.in);
         System.out.println("Enter the value of n:");

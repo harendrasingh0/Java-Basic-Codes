@@ -12,7 +12,7 @@ import java.util.Scanner;
             System.out.println("The permimeter is:- "+(4*side));
         }
 }
-public class H18{
+public class ConstructorEx{
     public static void main(String args[]){
         Scanner in=new Scanner(System.in);
         Square s=new Square();

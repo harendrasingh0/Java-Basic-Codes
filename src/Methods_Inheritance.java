@@ -1,18 +1,17 @@
 //  volume of cylinder by inheritance......
-//Doubt
+//Doubt ..Error
 import java.util.Scanner;
 class Circle1{
-    int radius;
-
+     int radius;
     Circle1(){
         System.out.println("Welcome in the Circle class");
     }
 
-    void area() {
+      void area() {
         System.out.println("The Area of circle is:- " + (3.14 * radius * radius));
     }
 }
-class Cylinder2 extends Circle{
+    class Cylinder2 extends Circle{
     int height;
     Cylinder2(){
         System.out.println("Welcome in the Cylinder class");
@@ -23,7 +22,7 @@ class Cylinder2 extends Circle{
     }
 
 }
-public class H22{
+public class Methods_Inheritance{
     public static void main(String args[]){
         Scanner in=new Scanner(System.in);
 
@@ -37,7 +36,5 @@ public class H22{
 
         ob.area();
         obj.volume();
-
-
     }
 }

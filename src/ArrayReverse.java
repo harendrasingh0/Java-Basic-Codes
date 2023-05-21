@@ -1,6 +1,6 @@
-//  Minimum of an array element......
+//   reverse of an array......
 import java.util.Scanner;
-public class H15{
+public class ArrayReverse {
     public static void main(String args[]){
         Scanner in=new Scanner(System.in);
         System.out.println("Enter the value of n:");
@@ -10,12 +10,9 @@ public class H15{
         for(int i=0;i<n;i++){
             arr[i]=in.nextInt();
         }
-        int mini=arr[0];
-        for(int i=0;i<n;i++){
-            if(arr[i]<mini){
-                mini=arr[i];
-            }
+        System.out.println("The reverse order of them are: ");
+        for(int i=n-1;i>=0;i--){
+            System.out.print(arr[i]+" ");
         }
-        System.out.println("The minimum is :- "+mini);
     }
 }

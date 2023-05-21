@@ -1,6 +1,6 @@
-//   reverse of an array......
+//  Maximum of an array element......
 import java.util.Scanner;
-public class H13{
+public class MaximumInArray {
     public static void main(String args[]){
         Scanner in=new Scanner(System.in);
         System.out.println("Enter the value of n:");
@@ -10,9 +10,13 @@ public class H13{
         for(int i=0;i<n;i++){
             arr[i]=in.nextInt();
         }
-        System.out.println("The reverse order of them are: ");
-        for(int i=n-1;i>=0;i--){
-            System.out.print(arr[i]+" ");
+        int maxi=0;
+       // System.out.println("The reverse order of them are: ");
+        for(int i=0;i<n;i++){
+            if(arr[i]>maxi){
+                maxi=arr[i];
+            }
         }
+        System.out.println("The maximum is :- "+maxi);
     }
 }

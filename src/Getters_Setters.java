@@ -25,7 +25,7 @@ class Cylinder{
     }
 
 }
-public class H20{
+public class Getters_Setters{
     public static void main(String args[]){
         Scanner in=new Scanner(System.in);
         Cylinder ob=new Cylinder();

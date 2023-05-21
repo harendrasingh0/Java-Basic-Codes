@@ -1,6 +1,6 @@
 // Sum of first even numbers...
 import java.util.Scanner;
-public class H6{
+public class Sum_of_first_even_numbers {
     public static void main(String args[]){
         Scanner in=new Scanner(System.in);
         System.out.println("Enter the value of n:");

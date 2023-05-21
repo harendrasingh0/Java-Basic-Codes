@@ -1,6 +1,6 @@
 // Avg by methode......
 import java.util.Scanner;
-public class H17{
+public class AvgByMethods {
     static float avg(int arr[]){
        int n=arr.length;
        int sum=0;

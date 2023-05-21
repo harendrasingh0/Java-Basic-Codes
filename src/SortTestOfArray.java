@@ -1,6 +1,6 @@
 //  Array is sorted or not......
 import java.util.Scanner;
-public class H16{
+public class SortTestOfArray {
     public static void main(String args[]){
         Scanner in=new Scanner(System.in);
         System.out.println("Enter the value of n:");

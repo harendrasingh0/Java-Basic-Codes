@@ -1,6 +1,6 @@
 //   Sum of float array......
 import java.util.Scanner;
-public class H10{
+public class Float_array_sum {
     public static void main(String args[]){
         Scanner in=new Scanner(System.in);
         System.out.println("Enter the value of n:");

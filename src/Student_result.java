@@ -1,7 +1,6 @@
    //     Fail or pass of student
-import java.sql.SQLOutput;
 import java.util.*;
-public class H2 {
+public class Student_result {
     public static void main(String[] args) {
         System.out.printf("Welcome here..!");
         Scanner in =new Scanner(System.in);

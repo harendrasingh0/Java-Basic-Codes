@@ -27,7 +27,7 @@ class Cylinder1{
     }
 
 }
-public class H21{
+public class AreaByInheritance{
     public static void main(String args[]){
         Scanner in=new Scanner(System.in);
         Cylinder1 ob=new Cylinder1();
