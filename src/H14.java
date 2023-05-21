@@ -6,6 +6,8 @@ public class H14{
         System.out.println("Enter the value of n:");
         int n=in.nextInt();
         int arr[]=new int[n];
+
+
         System.out.println("Enter the elements in the array-");
         for(int i=0;i<n;i++){
             arr[i]=in.nextInt();
